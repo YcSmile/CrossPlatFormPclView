@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="PointCloudSocket/PointCloudSocket.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PointCloudSocket/Program.cs">
+    <Files>
+      <File FileName="PointCloudSocket/Program.cs" Line="3" Column="22" />
+      <File FileName="PointCloudSocket/PclPointCloudPoint.cs" Line="1" Column="1" />
+      <File FileName="PointCloudSocket/PclPointServer.cs" Line="1" Column="1" />
+      <File FileName="PointCloudSocket/PclPointCloudPointHandle.cs" Line="34" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

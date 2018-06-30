@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package LiDarPointPack;
+
+option csharp_namespace = "LiDarPointPack";
+
+message Vector3{
+
+    float x = 1;
+    float y = 2;
+    float z = 3;
+}
+
+// 数据格式户
+message PointData{
+
+    int32   laserId     = 1;    // 雷蛇ID
+    Vector3 coordinate  = 2;    // 3D 坐标
+    float   radius      = 3;    // 距离
+    float   inclination = 4;    // 幅度
+    float   azimuth     = 5;    // 
+}
+
+message PointDataList{
+
+    repeated PointData points = 1;
+}
